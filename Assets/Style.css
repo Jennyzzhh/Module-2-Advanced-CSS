@@ -8,17 +8,21 @@
     flex-wrap: wrap;
     align-items: baseline;
     
+    
 }
 
 .paragraph {
 
     line-height: 1.5em;
     width: 600px;
+    margin: auto;
+
 }
 
-aside {
+.aside {
 
     padding: 80px;
+ 
 } 
 
 main {
@@ -35,9 +39,6 @@ main {
     justify-content: space-between;
 }
 
-.works aside {
-    width:20%;
-}
 
 .big {
     width: 80%;
@@ -92,6 +93,7 @@ div.card a:hover {
     overflow: auto;
     white-space: nowrap;
     width: 600px;
+    margin: auto;
     
 }
 
