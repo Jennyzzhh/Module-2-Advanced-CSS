@@ -22,11 +22,11 @@ aside {
 } 
 
 main {
-    /* display:flex; */
-    /* flex-wrap:wrap; */
+    display:flex;
+    flex-wrap:wrap;
     margin-top: 2%;
-    /* align-items: baseline; */
-    /* justify-content: space-between; */
+    align-items: baseline;
+    justify-content: space-between;
 }
 
 .works {
@@ -35,19 +35,26 @@ main {
     justify-content: space-between;
 }
 
+.bigcard {
+    width: 600px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    flex: 1 0 0;
+    
+}
+
 .card {
     border-style: solid;
     border-width: 1px;
     padding: 10px;
     flex: 1 0 0;
-    width: 400px;
+    width: 300px;
     /* flex-direction: row; */
 
 }
 
-#big {
-    width: 600px;
-}
+
 
 .card img {
     width: 100%;
