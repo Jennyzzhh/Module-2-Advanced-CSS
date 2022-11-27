@@ -57,6 +57,11 @@ main {
     width:100%;
 }
 
+div.bigcard a:hover {
+    background-color: blue;
+}
+
+
 .boxes {
     display:flex;
     flex-wrap: wrap;
