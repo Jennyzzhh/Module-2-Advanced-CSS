@@ -27,7 +27,6 @@
 
 main {
     display:flex;
-    flex-wrap:wrap;
     margin-top: 2%;
     align-items: baseline;
     justify-content: space-between;
@@ -37,6 +36,7 @@ main {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: auto;
 }
 
 
@@ -57,7 +57,7 @@ main {
     width:100%;
 }
 
-div.bigcard a:hover {
+.bigcard img:hover {
     background-color: blue;
 }
 
