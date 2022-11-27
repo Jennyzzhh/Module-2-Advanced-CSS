@@ -35,8 +35,16 @@ main {
     justify-content: space-between;
 }
 
+.works aside {
+    width:20%;
+}
+
+.big {
+    width: 80%;
+}
+
 .bigcard {
-    width: 600px;
+    width: 80%;
     border-style: solid;
     border-width: 1px;
     padding: 10px;
@@ -44,16 +52,26 @@ main {
     
 }
 
+.bigcard img {
+    width:100%;
+}
+
+.boxes {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
 .card {
     border-style: solid;
     border-width: 1px;
     padding: 10px;
     flex: 1 0 0;
-    width: 300px;
+    width: 40%;
     /* flex-direction: row; */
 
 }
-
 
 
 .card img {
