@@ -1,5 +1,6 @@
 * {
     background-color: #B0C6E7;
+    box-sizing: border-box;
 }
 
 .about1 {
@@ -21,11 +22,17 @@ aside {
 } 
 
 main {
-    display:flex;
-    flex-wrap:wrap;
+    /* display:flex; */
+    /* flex-wrap:wrap; */
     margin-top: 2%;
-    align-items: baseline;
+    /* align-items: baseline; */
     /* justify-content: space-between; */
+}
+
+.works {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .card {
@@ -33,9 +40,13 @@ main {
     border-width: 1px;
     padding: 10px;
     flex: 1 0 0;
-    width: 600px;
-    flex-direction: row;
+    width: 400px;
+    /* flex-direction: row; */
 
+}
+
+#big {
+    width: 600px;
 }
 
 .card img {
@@ -47,7 +58,7 @@ div.card a:hover {
     background-color: blue;
 }
 
-.contact {
+.Contact {
     display: flex;
     align-items:baseline;
 }
