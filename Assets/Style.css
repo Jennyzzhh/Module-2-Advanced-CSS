@@ -5,18 +5,25 @@
 
 .parent {
     white-space:nowrap;
+    /* display: inline-block; */
     background-color: aquamarine;
+
 
 }
 
 .child {
     display:inline-block;
+
+
     
 }
 
 nav{
-    float: right;
+    float: inline-end;
+
+
 }
+
 
 .about1 {
     display:flex;
@@ -29,21 +36,23 @@ nav{
 .paragraph {
 
     line-height: 1.5em;
-    width: 600px;
+    /* width: 600px; */
     /* margin: 200px; */
-    margin-left: 200px;
+    width:50%;
+    margin-left: 100px;
 
 }
 
-.aside {
+aside {
 
-    /* padding: 80px; */
-    position: absolute;
+    padding: 80px;
+    /* position: absolute; */
  
 } 
 
 main {
-
+    display: flex;
+    /* flex-wrap: wrap; */
     margin-top: 2%;
     align-items: baseline;
     justify-content: space-between;
@@ -54,10 +63,12 @@ main {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
+
     /* margin: 200px; */
-    flex-direction: column;
-    align-items: center;
-    margin-left: 200px;
+    /* flex-direction: row; */
+    /* align-items: center; */
+    margin-left: 100px;
     /* position: relative; */
 
     /* top: -50px; */
@@ -74,38 +85,46 @@ main {
 .bigcard {
     display:flex;
     flex-direction: column;
-    align-items: center;
-    width: 100%;
-    /* border-style: solid; */
-    /* border-width: 1px; */
-    padding: 10px;
+    /* align-items: center; */
+    width: 60%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #B0B3E7;
+    /* padding: 10px; */
     flex: 1 0 0;
+    margin-bottom: 2%;
+
     
 }
 
 .bigcard img {
-    width:700px;
+    width: 100%;
 }
 
-.bigcard:hover {
+.bigcard img:hover {
     background-color: blue;
+    filter: blur(3px);
 }
 
 
 .boxes {
     display:flex;
     flex-wrap: wrap;
+
     /* justify-content: space-between; */
-    flex-direction: column;
-    align-items: center;
+    width:100%;
+    /* flex-direction: column; */
+    /* align-items: center; */
 
 }
 
 .card {
-    /* border-style: solid; */
-    /* border-width: 1px; */
-    padding: 10px;
-    /* flex: 1 0 0; */
+    border-style: solid;
+    border-width: 10px;
+    border-color: #B0B3E7;
+
+    /* padding: 10px; */
+    flex: 1 0 0;
     width: 30%;
     /* flex-direction: row; */
 
@@ -117,8 +136,9 @@ main {
 
 }
 
-.card:hover {
+.card img:hover {
     background-color: blue;
+    filter: blur(3px);
 }
 
 .Contact {
@@ -129,8 +149,8 @@ main {
 .Horizontal {
     overflow: auto;
     white-space: nowrap;
-    width: 600px;
-    margin: 200px;
+    width: 50%;
+    margin: 100px;
     
 }
 
