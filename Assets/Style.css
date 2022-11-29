@@ -13,13 +13,11 @@
 
 .child {
     display:inline-block;
-
-
     
 }
 
-nav{
-    float: inline-end;
+.top{
+    float: right;
 
 
 }
@@ -108,8 +106,8 @@ main {
 
 
 .boxes {
-    display:flex;
-    flex-wrap: wrap;
+    /* display:flex; */
+    /* flex-wrap: wrap; */
 
     /* justify-content: space-between; */
     width:100%;
